@@ -1,7 +1,11 @@
 # Voice command for ChatGPT client
+
 it took 30 minutes to glue this code together, with the help of chatGPT. don't use it in production :p
+
 # HOW TO TEST
+
 Python3.7, openai, gtts, sounddevice, websockets. etc.
+
 ```
 docker run -d -p 2700:2700 alphacep/kaldi-en:latest
 CHATGPT_API_KEY="yours" python3.7 test_microphone.py -u ws://localhost:2700
